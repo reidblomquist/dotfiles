@@ -6,6 +6,7 @@
 # zsh and zprezto
 !.z*
 .zprezto
+.zcompdump
 .zhistory
 .zsh_history
 # vim/neovim
