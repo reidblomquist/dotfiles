@@ -1,0 +1,17 @@
+# Ignore everything by default
+/*
+!.gitignore
+
+# Include relevant dotfiles
+# zsh and zprezto
+!.z*
+.zprezto
+.zhistory
+.zsh_history
+# vim/neovim
+!.vi*
+/.vim/plugged
+.viminfo
+.virtualenvs
+# tmux
+!.tmux*
