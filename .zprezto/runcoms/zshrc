@@ -23,3 +23,6 @@ alias emacs="emacs -nw"
 # Add GO to PATH
 export GOPATH="/home/lampd1/Development/go"
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# I think some pip3 user space files are landing here
+export PATH=$PATH:$HOME/.local/bin
