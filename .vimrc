@@ -12,8 +12,11 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'dense-analysis/ale'
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
+
+set encoding=UTF-8
 
 "===  Source Lib Files  =======================================================
 for file in split(glob('~/.vim/lib/*.vim'), '\n')
